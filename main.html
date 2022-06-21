@@ -5,15 +5,38 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>다양한 놀이공원</title>
+        <style>
+            #bottom{
+                background-image: url(images/tiger.jpg);
+            }
+            
+            h1{
+                color:chocolate;
+                font-size: xx-large;
+                font-style: initial;
+            }
+            p{
+                color:darkmagenta;
+                font-size:xx-large;
+                font-style:oblique;
+            }
+
+            </style>
     </head>
-    <body align="center">
+    <body>
             <img onclick="location.href='dev.html'" align="right" src="images/menu.png" alt="My Image" width="30" height="30">
-        <div>
+        <div id="top">
             <h1> play AMUSEMENT PARK</h1>
-            <p>맛집부터 호텔까지</p>
-            <p>자신이 원하는 놀이공원은?</p>
-            <input type="button" onClick="location.href='city.html'" value="수도권">
-            <input type="button" onClick="location.href='fat.html'" value="지방">
         </div>
+        <div id="bottom">
+            <p><b>맛집부터 호텔까지</b></p>
+            <p><b>자신이 원하는 놀이공원은?</b></p>
+            <center>
+            <p><img src = "images/ci.jpeg"></p>
+            <input type="button" onClick="location.href='city.html'" value="수도권">
+            <p><img src = "images/coun.jpeg"></p>
+            <input type="button" onClick="location.href='fat.html'" value="지방">
+            </center>
+            </div>
     </body>
 </html>
